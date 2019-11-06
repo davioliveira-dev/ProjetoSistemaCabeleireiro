@@ -1,18 +1,18 @@
 body{
-    background-image: linear-gradient(to left, #DD569A, #A30F59);
+    background: #A30F59;
 }
 .box{
-	width: 50%;
-	height: 580px;
+	width: 40%;
+	height: 630px;
 	margin: 0 auto;
 	border-radius: 10px;
     background-color: white;
 }
 .cont {
-    width: 80% ;
+    width: 70% ;
     margin: 0 auto;
-    margin-top: 50px;
-  }
+    margin-top: 40px;
+}
 .form{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,14 +22,14 @@ body{
     display: inline-block;
     width: 150px;
     height: 150px;
-    background: #A113D6;
+    background: #DD569A;
     border-radius: 50%;
     position: relative;
-    border: 10px solid #A113D6;
+    border: 10px solid #DD569A;
     overflow: hidden;
     box-sizing: border-box;
     top: 10px;
-
+    margin-top: 20px;
 }
 .user::before{
     content: '';
@@ -54,56 +54,68 @@ body{
     top: 75px;
 }
 .login{
-    display: flex;
+    position: relative;
+    display: block;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    font-size: 30px;
-    color: #D61375;
+    font-size: 27px;
+    color: #DD569A;
 }
 .senha{
-    display: flex;
+    position: relative;
+    display: block;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    font-size: 30px;
-    color: #D61375;
+    font-size: 27px;
+    color: #DD569A;
 }
 .input{
     width: 100%;
-    color: #292929;
+    color: #DD569A;
     font-size: 18px;
-    background-color: #E9E9E9;
-    border: 1px solid #E9E9E9;
+    font-variant:bold;
+    background-color: #FFF;
+    border:2px solid #DD569A;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
-    height: 30px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    border-left: 1px solid #ccc;
+    border-radius: 15px;
+    height: 35px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #DD569A;
+    border-left: 2px solid #DD569A;
     text-indent: 20px;
-    text-align: center;
-    font-style: bold;
+    font-weight: bold;
+    z-index: 2;
+    display: block;
 }
-  
+input:focus, input:valid{
+    outline: none;
+    border-bottom: 2px solid #DD469A;
+}
+input:focus + label, input:valid + label{
+    top:-40px;
+    font-size: 17px;
+}
 .submit {
     width: 100%;
     font-size: 18px;
     border-radius: 4px;
     color: #fff;
-    height: 40px;
+    height: 45px;
     opacity: .8;
     margin-bottom: 20px;
     cursor: pointer;
-    background: #A113D6;
+    background: #DD569A;
     display: block;
     border: none;
     transition: 1s;
     top: 25px;
+    border-radius: 20px;
 }
 .submit:hover {
-    opacity: 2;
+    background: #A30F59;
 }
 a{
     text-decoration: none;
@@ -113,7 +125,10 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color:#D61375;
+    color:#DD569A;
     cursor: pointer;
     text-decoration-line:underline;
+}
+.ems:hover{
+    opacity: 3;
 }

@@ -1,11 +1,11 @@
 body{
-    background: #A30F59;
+    background: #F996FF;
 }
 .box{
 	width: 40%;
 	height: 630px;
 	margin: 0 auto;
-	border-radius: 10px;
+	border-radius: 20px;
     background-color: white;
 }
 .cont {
@@ -22,10 +22,10 @@ body{
     display: inline-block;
     width: 150px;
     height: 150px;
-    background: #DD569A;
+    background: #F996FF;
     border-radius: 50%;
     position: relative;
-    border: 10px solid #DD569A;
+    border: 10px solid #F977FF;
     overflow: hidden;
     box-sizing: border-box;
     top: 10px;
@@ -60,7 +60,7 @@ body{
     justify-content: left;
     align-items: center;
     font-size: 27px;
-    color: #DD569A;
+    color: #B73DC4;
 }
 .senha{
     position: relative;
@@ -69,7 +69,7 @@ body{
     justify-content: left;
     align-items: center;
     font-size: 27px;
-    color: #DD569A;
+    color: #B73DC4;
 }
 .input{
     width: 100%;
@@ -83,8 +83,8 @@ body{
     border-radius: 15px;
     height: 35px;
     margin-bottom: 0px;
-    border-bottom: 2px solid #DD569A;
-    border-left: 2px solid #DD569A;
+    border-bottom: 2px solid #B73DC4;
+    border-left: 2px solid #B73DC4;
     text-indent: 20px;
     font-weight: bold;
     z-index: 2;
@@ -107,7 +107,7 @@ input:focus + label, input:valid + label{
     opacity: .8;
     margin-bottom: 20px;
     cursor: pointer;
-    background: #DD569A;
+    background: #F200FF;
     display: block;
     border: none;
     transition: 1s;
@@ -125,10 +125,7 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color:#DD569A;
+    color:#B73DC4;
     cursor: pointer;
     text-decoration-line:underline;
-}
-.ems:hover{
-    opacity: 3;
 }

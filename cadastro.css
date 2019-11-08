@@ -1,25 +1,27 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, #6712CC, #D61375);
+  font-family: Arial, Helvetica, sans-serif;
+  background: #F996FF;
 }
 .box{
   width: 50%;
-  height: 920px;
+  height: 600px;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: white;
+  margin-top: 30px;
 }
 .cont {
-    width: 50%;
-    margin: 0 auto;
-  }
+  width: 85%;
+  margin: 0 auto;
+}
 .form{
   width: 100%;
   font-family: "Arial", Times, serif;
-  color: #D61375;
+  color: #B73DC4;
 }
 h1{
   font-size: 35px;
+  text-align: center;
 }
 label{
   font-size: 20px;
@@ -29,38 +31,59 @@ ul{
   list-style-type: none;
   margin-left: -50px;
 }
+.coluna1{
+  width: 48%;
+  float: left;
+}
+.coluna2{
+  width: 48%;
+  float: right;
+}
 .input{
   width: 100%;
   color: #D61375;
   font-size: 15px;
   font-weight: bold;
   background-color: #E9E9E9;
-  border: 1px solid #E9E9E9;
+  border: 2px solid #B73DC4;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   height: 30px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+  border-bottom: 2px solid #B73DC4;
+  border-left: 2px solid #B73DC4;
   text-indent: 20px;
+}
+#data_nasc{
+  -moz-appearance: textfield;
+  appearance: textfield;
+  text-align:center;
+}
+#data_nasc::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+#senha{
+  margin-bottom: 25px;
+}
+.foto{
+  font-size: 12px;
+  margin-top: 10px;
 }
 .submit {
   width: 100%;
   font-size: 18px;
-  border-radius: 4px;
+  border-radius: 20px;
   color: #fff;
   height: 40px;
-  opacity: .8;
-  margin-bottom: 20px;
+  opacity: 8;
   cursor: pointer;
-  background: #D61375;
+  background: #F200FF;
   display: block;
   border: none;
-  transition: 1s;
-  top:20px;
+  transition: 3s;
 }
 .submit:hover {
-  opacity: 1;
-  background-image: linear-gradient(to left, #D61375, #6712CC); 
+  opacity: 2;
+  background-image: linear-gradient(to left, #F996FF, #B73DC4); 
 }

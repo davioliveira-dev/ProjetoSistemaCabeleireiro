@@ -1,5 +1,0 @@
-#D61375 // principal
-#DD569A // comp 1 esq
-#57082F // comp 2 esq
-#57223C // comp 1 dir
-#A30F59 // comp 2 dir

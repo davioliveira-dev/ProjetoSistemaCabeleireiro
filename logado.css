@@ -1,14 +1,6 @@
 body{
 	background-image: linear-gradient(to left, #BF1BBF, #C91C73);
 }
-.cont{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    color: white;
-}
 .user{
     display: inline-block;
     width: 150px;
@@ -42,7 +34,4 @@ body{
     position: absolute;
     left: calc(50% - 50px);
     top: 75px;
-}
-label{
-    color:#FFF;
 }

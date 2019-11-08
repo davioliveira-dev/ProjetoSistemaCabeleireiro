@@ -45,12 +45,6 @@ CREATE TABLE `tb_usuario` (
 -- Extraindo dados da tabela `tb_usuario`
 --
 
-INSERT INTO `tb_usuario` (`id`, `nome`, `endereco`, `fone`, `data_nasc`, `rg`, `cpf`, `sexo`, `email`, `senha`) VALUES
-(1, 'davi', 'davi', '859', '17/04/2001', '49', '984', 'M', 'davi@gmail.com', 'davi'),
-(6, 'f', 'f', 'f', 'f', 'f', 'f', 'f', 'f@gmail.com', 'f'),
-(8, 'g', 'g', 'g', 'g', 'g', 'g', 'g', 'e@gmail.com', 'g'),
-(9, 'h', 'h', 'h', 'h', 'h', 'h', 'h', 'ha@gmail.com', 'h'),
-(10, 'o', 'o', 'o', 'o', 'o', 'o', 'o', 'o@gmail.com', 'o');
 
 --
 -- Indexes for dumped tables

@@ -11,7 +11,7 @@ body{
 .cont {
     width: 70% ;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .form{
     width: 100%;
@@ -25,7 +25,7 @@ body{
     background: #F996FF;
     border-radius: 50%;
     position: relative;
-    border: 10px solid #F977FF;
+    border: 10px solid #F996FF;
     overflow: hidden;
     box-sizing: border-box;
     top: 10px;
@@ -77,7 +77,7 @@ body{
     font-size: 18px;
     font-variant:bold;
     background-color: #FFF;
-    border:2px solid #DD569A;
+    border:2px solid #B73DC4;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 15px;
@@ -92,7 +92,7 @@ body{
 }
 input:focus, input:valid{
     outline: none;
-    border-bottom: 2px solid #DD469A;
+
 }
 input:focus + label, input:valid + label{
     top:-40px;
@@ -107,7 +107,7 @@ input:focus + label, input:valid + label{
     opacity: .8;
     margin-bottom: 20px;
     cursor: pointer;
-    background: #F200FF;
+    background: #B73DC4;
     display: block;
     border: none;
     transition: 1s;
@@ -115,7 +115,7 @@ input:focus + label, input:valid + label{
     border-radius: 20px;
 }
 .submit:hover {
-    background: #A30F59;
+    background: #F200FF;
 }
 a{
     text-decoration: none;

@@ -5,9 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Home</title>
-		<meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
-		<meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
-		<meta name="author" content="Codrops" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" /> 
         <link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -15,7 +12,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<ul id="gn-menu" class="gn-menu-main">
+			<ul id="gn-menu" class="gn-menu-main"><label class="gn-menu-main">Salão de Cabelereiro</label>
 				<li class="gn-trigger">
 					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
 					<nav class="gn-menu-wrapper">

@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="cadastro.css">
+        <link rel="stylesheet" type="text/css" href="css/cadastro.css">
         <title>Salão de Cabelereiro</title>
     </head>
     <body>
         <div class="box">
             <div class="cont">
-                <form class="form" method="POST" action="processa.php">
+                <form class="form" method="POST" action="cadastra.php">
                     <br><h1>Cadastro de Cliente</h1>
                     <ul>
                         <div class="coluna1">

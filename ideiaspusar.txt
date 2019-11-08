@@ -1,0 +1,6 @@
+﻿validar dados de login
+tornar obrigatório todos os dados
+ter o mínimo e max de caracteres nos campos de cadastro
+visualizar foto após seleciona-la
+fazer sistema de esqueci minha senha
+personalizar botao de enviar foto

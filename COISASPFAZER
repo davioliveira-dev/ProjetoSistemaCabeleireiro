@@ -1,7 +1,7 @@
 deixar o telefone com traços (type number) --- OK
 deixar cep com traços (type number) --- OK
-não permitir datas acima de 2019 ou abaixo de 1910
-rg e cpf com traços
+não permitir datas acima de 2019 ou abaixo de 1910 --- OK
+rg e cpf com traços -- OK (RG É 12 NO BD)
 ter botao para mostrar senha
 fazer função para confirmar senha
 personalizar botao da foto

@@ -1,0 +1,15 @@
+deixar o telefone com traços (type number) --- OK
+deixar cep com traços (type number) --- OK
+não permitir datas acima de 2019 ou abaixo de 1910
+rg e cpf com traços
+ter botao para mostrar senha
+fazer função para confirmar senha
+personalizar botao da foto
+personalizar radio
+pegar valor radio p/ php
+funcao em js para não permitir senha de só numeros ou só letras
+sistema login
+sistema esqueceu sua senha
+redirecionar caso dê erro
+redirecionar após cadastro
+validar cadastro no esqueci minha senha

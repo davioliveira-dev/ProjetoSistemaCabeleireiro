@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="cadastro.css">
+        <script type="text/javascript" src="validacao.js"></script>
+        <title>Salão de Cabelereiro</title>
+    </head>
+    <body>
+        <div class="box">
+            <div class="cont">
+                <form class="form" method="POST" action="cadastrar.php">
+                    <br><h1>Seja Bem-Vindo!</h1>
+                    <h2>Cadastro de Cliente</h2>
+                    <label>Nome:</label>
+                    <input type="text" name="nome" class="input" minlength="3" maxlength="50" required>
+                    <label>Endereço:</label>
+                    <input type="text" name="endereco" class="input" minlength="4" maxlength="100" required>
+                    <label>CEP:</label>
+                    <input type="text" name="cep" class="input" minlength="8" maxlength="8" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                    <label>Telefone:</label>
+                    <input type="text" name="fone" class="input" minlength="11" maxlength="11" onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                    <label>Data de Nascimento:</label>
+                    <input type="date" name="data_nasc" class="input" minlength="10" maxlength="10" required>
+                    <label>Sexo:</label>
+                    <label class="lblMasc">Masculino:</label><input type="radio" name="sexo" class="masc" required><label>Feminino:</label><input type="radio" name="sexo" class="fem" required><br>
+                    <label>CPF:</label>
+                    <input type="text" name="cpf" class="input" minlength="11" maxlength="11" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                    <label>RG:</label>
+                    <input type="text" name="rg" class="input" minlenght="11" maxlength="11" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                    <label>Email:</label>
+                    <input type="email" name="email" class="input" maxlength="50" required>
+                    <label>Senha:</label>
+                    <input type="password" name="senha" id="senha" class="input" minlength="8" maxlength="30" required>                    <label>Confirme sua Senha!:</label>
+                    <input type="password" name="confSenha" class="input" minlength="8" maxlength="30" required>
+                    <label>Foto(Opcional):</label><br><br>
+                    <input type="file" name="foto" accept="image/png , image/jpeg">
+                    <input type="submit" value="Cadastrar" class="submit"><br><br>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

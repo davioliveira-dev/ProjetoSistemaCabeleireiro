@@ -13,3 +13,25 @@ sistema esqueceu sua senha
 redirecionar caso dê erro
 redirecionar após cadastro
 validar cadastro no esqueci minha senha
+
+COISAS P LEMBRAR 
+
+TER NOME SALÃO DE CABELEREIRO NO LOGIN COM FONTE B612
+EMAIL E SENHA DO LOGIN SEGUINDO O PADRAO DO CADASTRO
+MUDAR CORES(AZUL E BRANCO, POUCO ROSA)
+REDIMENSIONAR O TAMANHO DA TELA DE CADASTRO E SUAS FONTES, PARA DEIXAR ALGO AGRADÁVEL ESTILO CRIAR CONTA GOOGLE, SEGUE O LINK
+
+<=== https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp
+
+
+Seja bem-vindo <== B612 FONTS GOOGLE
+Muli BLACK(deixar azul) <== NOMES DOS CAMPOS E BOTOES
+Muli Semi-Bold(OU BOLD) <== INPUTS
+Inputs estilo material <= google
+inputs tem que ser responsivos
+input data material
+radio sexo material
+input file material e estilizado
+espaçamento entre input
+
+

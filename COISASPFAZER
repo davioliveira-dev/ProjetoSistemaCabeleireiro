@@ -1,11 +1,12 @@
 deixar o telefone com traços (type number) --- OK
 deixar cep com traços (type number) --- OK
 não permitir datas acima de 2019 ou abaixo de 1910 --- OK
-rg e cpf com traços -- OK (RG É 12 NO BD)
-ter botao para mostrar senha
+rg e cpf com traços -- OK
+personalizar botao da foto --- OK
+personalizar radio --- OK
+
 fazer função para confirmar senha
-personalizar botao da foto
-personalizar radio
+ter botao para mostrar senha
 pegar valor radio p/ php
 funcao em js para não permitir senha de só numeros ou só letras
 sistema login
@@ -13,25 +14,22 @@ sistema esqueceu sua senha
 redirecionar caso dê erro
 redirecionar após cadastro
 validar cadastro no esqueci minha senha
-
-COISAS P LEMBRAR 
-
 TER NOME SALÃO DE CABELEREIRO NO LOGIN COM FONTE B612
 EMAIL E SENHA DO LOGIN SEGUINDO O PADRAO DO CADASTRO
 MUDAR CORES(AZUL E BRANCO, POUCO ROSA)
-REDIMENSIONAR O TAMANHO DA TELA DE CADASTRO E SUAS FONTES, PARA DEIXAR ALGO AGRADÁVEL ESTILO CRIAR CONTA GOOGLE, SEGUE O LINK
-
-<=== https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp
-
-
 Seja bem-vindo <== B612 FONTS GOOGLE
 Muli BLACK(deixar azul) <== NOMES DOS CAMPOS E BOTOES
 Muli Semi-Bold(OU BOLD) <== INPUTS
-Inputs estilo material <= google
-inputs tem que ser responsivos
-input data material
-radio sexo material
-input file material e estilizado
-espaçamento entre input
+SEPARAR EM PASTAS ARQUIVOS JS E CSS
+
+
+
+Inputs estilo material <= google ---- OK
+inputs tem que ser responsivos --- OK
+input data material --- OK
+radio sexo material --- OK
+input file material e estilizado ---- OK
+espaçamento entre input -- OK
+ESPAÇAMENTO CORRETO NO INPUT FILE --OK
 
 

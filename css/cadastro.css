@@ -81,10 +81,11 @@ h2{
   font-family:'B612',sans-serif;
   border-radius: 20px;
   color: #fff;
-  background: #A038C9;
+  background: #D63187;
   transition: 0.8s;
   height: auto;
 }
 .submit:hover{
-  background: #D63187;
+  background: #A038C9;
+  
 }

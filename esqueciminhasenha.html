@@ -2,21 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="esqueciminhasenha.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" type="text/css" href="css/esqueciminhasenha.css">
+        <title>Salão de Cabelereiro</title>
     </head>
     <body>
-        <form method="POST" action="esqueciminhasenha.php">
-            <center>
-                <div class="box">
-                    <div class="user"></div>
-                    <h1>Esqueceu sua senha?</h1>
-                    <h2>Estamos aqui para lhe ajudar!</h2>
-                    <label>Digite aqui seu email:</label>
-                    <input type="email" name="emailEMS" class="input" maxlength="50" required>
-                    <input type="submit" class="submit" value="Recuperar minha senha">
-                </div>
-            </center>
-        </form>
+        <div class="container">
+            <div class="card-panel panel">
+                <form class="col s12" method="POST" action="esqueciminhasenha.php">
+                    <h1>Esqueceu sua Senha?</h1>
+                    <h2>Nós podemos ajudar!</h2>
+                    <h3>Digite seu email cadastrado!</h3><br>
+                    <div class="row">
+                        <div class="input-field col s11">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="email" name="email" id="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <input type="submit" name="submit" value="Enviar E-mail" class="submit">
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
 </html>

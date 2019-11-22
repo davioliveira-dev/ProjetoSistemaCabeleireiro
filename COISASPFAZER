@@ -5,8 +5,8 @@ rg e cpf com traços -- OK
 personalizar botao da foto --- OK
 personalizar radio --- OK
 
-fazer função para confirmar senha
-ter botao para mostrar senha
+fazer função para confirmar senha --- OK
+ter botao para mostrar senha ----
 funcao em js para não permitir senha de só numeros ou só letras
 validar cadastro no esqueci minha senha
 sistema esqueceu sua senha

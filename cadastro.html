@@ -6,8 +6,6 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <link rel="stylesheet" type="text/css" href="css/cadastro.css">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-        <script type="text/javascript" src="js/jquery.mask.min.js"></script>
         <title>Salão de Cabelereiro</title>
     </head>
     <body>
@@ -54,22 +52,22 @@
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix">email</i>
-                            <input id="email" type="email" name="email" id="email" class="validate">
+                            <input id="email" type="email" name="email" id="email" class="validate" minlength="4" maxlength="50" required>
                             <label for="email">Email</label>
                         </div>
                         <div class="input-field col s6">
-                            <i class="material-icons prefix">vpn_key</i>
-                            <input id="password" type="password" name="senha" id="senha" class="validate">
+                            <i class="material-icons prefix mostrarsenha">vpn_key</i>
+                            <input id="password" type="password" name="senha" id="senha" onclick="mostrarsenha()" class="validate" minlength="8" maxlength="20" required>
                             <label for="password">Digite sua Senha!</label>
                         </div>
                         <div class="input-field col s6">
-                                <i class="material-icons prefix">vpn_key</i>
-                                <input id="password_conf" type="password" class="validate">
+                                <i class="material-icons prefix mostrarsenha" id="btnMostrarSenha">vpn_key</i>
+                                <input id="password_conf" type="password" class="validate" minlength="8" maxlength="20" required>
                                 <label for="password_conf">Confirme sua Senha!</label>
                         </div>
                         <div class="input-field col s6 radiosex">
                             <i class="material-icons prefix">account_circle</i>
-                            <input id="sexo" type="text" name="sexo" id="sexo" class="validate">
+                            <input id="sexo" type="text" name="sexo" id="sexo" class="validate" minlength="1" maxlength="1" required>
                             <label for="sexo">Sexo(Digite M ou F)</label>
                         </div>
                     <div class="input-field col s6">
@@ -91,6 +89,8 @@
                 </form>
             </div>
         </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mask.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/validacao.js"></script>
     </body>

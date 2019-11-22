@@ -6,3 +6,19 @@ $(function() {
     $('.cpf').mask('000.000.000-00', {reverse: true});
     
 });
+var senha = document.getElementById('password');
+var confSenha = document.getElementById('password_conf');
+
+function validarSenha(){
+    if(senha.value != confSenha.value)
+    {
+        confSenha.setCustomValidity("Senhas diferentes!");
+    }
+    else 
+    {
+        confSenha.setCustomValidity('');
+    }
+}
+senha.onchange = validarSenha;
+confSenha.onkeyup = validarSenha;
+

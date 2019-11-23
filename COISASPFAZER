@@ -6,13 +6,16 @@ personalizar botao da foto --- OK
 personalizar radio --- OK
 
 fazer função para confirmar senha --- OK
-ter botao para mostrar senha
-funcao em js para não permitir senha de só numeros ou só letras
-validar cadastro no esqueci minha senha
-sistema esqueceu sua senha
-fazer a página home --- OK
+ter botao para mostrar senha ---- OK
 
-fb2e5fbc6d@emailcu.icu
+
+funcao em js para não permitir senha de só numeros --- 
+validar cadastro no esqueci minha senha --- OK
+sistema esqueceu sua senha ---- OK
+validar o cpf --- OK
+
+fazer a página home 
+
 
 sistema login <=== OK
 redirecionar caso dê erro <=== OK

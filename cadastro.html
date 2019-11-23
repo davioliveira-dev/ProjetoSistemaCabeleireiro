@@ -47,7 +47,7 @@
                         </div>
                         <div class="input-field col s6">
                                 <i class="material-icons prefix">assignment_ind</i>
-                                <input id="icon_cpf cpf" type="text" name="cpf" class="validate cpf" minlength="12" maxlength="12" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                                <input id="icon_cpf cpf" type="text" name="cpf" class="validate cpf" minlength="12" maxlength="12" required onblur="validarCPF(cpf.value)" onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
                                 <label for="icon_cpf">CPF</label>
                         </div>
                         <div class="input-field col s6">
@@ -56,12 +56,12 @@
                             <label for="email">Email</label>
                         </div>
                         <div class="input-field col s6">
-                            <i class="material-icons prefix mostrarsenha">vpn_key</i>
+                            <i class="material-icons prefix mostrarsenha" onmouseup="mostrarsenha()" id="botao">vpn_key</i>
                             <input id="password" type="password" name="senha" id="senha" class="validate" minlength="8" maxlength="20" required>
                             <label for="password">Digite sua Senha!</label>
                         </div>
                         <div class="input-field col s6">
-                                <i class="material-icons prefix mostrarsenha" id="btnMostrarSenha">vpn_key</i>
+                                <i class="material-icons prefix mostrarsenha" id="botaoConfSenha">vpn_key</i>
                                 <input id="password_conf" type="password" class="validate" minlength="8" maxlength="20" required>
                                 <label for="password_conf">Confirme sua Senha!</label>
                         </div>
@@ -89,7 +89,7 @@
                 </form>
             </div>
         </div>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="js/jquery-latest.min.js"></script>
         <script type="text/javascript" src="js/jquery.mask.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/validacao.js"></script>

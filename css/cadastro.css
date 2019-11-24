@@ -59,6 +59,10 @@ h2{
 .input-field .prefix {
   color: #A038C9;
 }
+.invalid{
+  color:#F44336;
+  
+}
 .mostrarsenha{
   cursor: pointer;
 }

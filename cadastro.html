@@ -47,7 +47,7 @@
                         </div>
                         <div class="input-field col s6">
                                 <i class="material-icons prefix">assignment_ind</i>
-                                <input id="icon_cpf cpf" type="text" name="cpf" class="validate cpf" minlength="12" maxlength="12" required onblur="validarCPF(cpf.value)" onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                                <input id="icon_cpf cpf" type="text" name="cpf" class="cpf" required onblur="validarCPF(cpf.value)" onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
                                 <label for="icon_cpf">CPF</label>
                         </div>
                         <div class="input-field col s6">
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="input-field col s6 ">
-                        <button class="btn waves-effect waves-light  submit" type="submit" name="enviar">Enviar!
+                        <button class="btn waves-effect waves-light  submit" id="submit" type="submit" name="enviar">Enviar!
                             <i class="material-icons right">send</i>
                         </button>
                     </div>

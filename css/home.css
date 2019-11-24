@@ -1,22 +1,30 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
+h1{
+  color: #A038C9;
+  background: rgba(255,255,255,.9);
+  border-radius: 50px;
+}
+.row h5{
+  color: #D63187;
+  background: rgba(255,255,255,.9);
+  border-radius: 50px;
+}
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #A038C9;
 }
 
 p {
   line-height: 2rem;
 }
-
 .sidenav-trigger {
-  color: #26a69a;
+  color: #A038C9;
+}
+#nav-mobile li a{
+  color: #A038C9;
+}
+
+.botao:hover{
+  background: #D63187;
 }
 
 .parallax-container {
@@ -39,6 +47,23 @@ p {
   }
 }
 
+.col h5 {
+  color: #A038C9;
+}
+
+.texto2{
+  color: #D63187;
+  font-weight: 500;
+}
+
+.row h4{
+  color: #A038C9;
+  font-weight: bold;
+  background: rgba(255,255,255,.9);
+  border-radius: 50px;
+}
+
+
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
@@ -54,4 +79,5 @@ p {
 
 footer.page-footer {
   margin: 0;
+  background: #fff;
 }

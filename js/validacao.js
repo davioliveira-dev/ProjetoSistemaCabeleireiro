@@ -47,7 +47,8 @@ document.getElementById('sexo').addEventListener('keypress', function(evt) {
 
 function validarCPF(cpf) {	
 	cpf = cpf.replace(/[^\d]+/g,'');	
-	if(cpf == '') return alert('CPF Inválido!') + false + trocaClasse(cpf);;	
+	if(cpf == ''){ return alert('CPF Inválido!') + false;
+	}	
 	// Elimina CPFs invalidos conhecidos	
 	if (cpf.length != 11 || 
 		cpf == "00000000000" || 
@@ -60,7 +61,7 @@ function validarCPF(cpf) {
 		cpf == "77777777777" || 
 		cpf == "88888888888" || 
 		cpf == "99999999999")
-			return alert('CPF Inválido!') + false + trocaClasse(cpf);;		
+			return alert('CPF Inválido!') + false;	
 	// Valida 1o digito	
 	add = 0;	
 	for (i=0; i < 9; i ++)		
@@ -69,7 +70,7 @@ function validarCPF(cpf) {
 		if (rev == 10 || rev == 11)		
 			rev = 0;	
 		if (rev != parseInt(cpf.charAt(9)))		
-			return alert('CPF Inválido!') + false + trocaClasse(cpf);;		
+			return alert('CPF Inválido!') + false;	
 	// Valida 2o digito	
 	add = 0;	
 	for (i = 0; i < 10; i ++)		
@@ -78,9 +79,6 @@ function validarCPF(cpf) {
 	if (rev == 10 || rev == 11)	
 		rev = 0;	
 	if (rev != parseInt(cpf.charAt(10)))
-		return alert('CPF Inválido!') + false + trocaClasse(cpf);		
+		return alert('CPF Inválido!') + false;
     return true;
-}
-function trocaClasse(cpf) {
-    alert("Tá errado");
 }

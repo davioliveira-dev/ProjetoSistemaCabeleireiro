@@ -12,7 +12,7 @@ if(mysqli_num_rows ($result) > 0 )
     echo("<script type='text/javascript'>
     alert('Um e-mail foi enviado para recuperação da sua senha!');
   </script>");
-  echo("<center><a href='index.html'>Voltar ao Login</a></center>");
+  echo("<center><a href='login.html'>Voltar ao Login</a></center>");
 }
 else{
     echo("<script type='text/javascript'>

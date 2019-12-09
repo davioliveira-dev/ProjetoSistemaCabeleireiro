@@ -15,12 +15,12 @@ if(mysqli_num_rows ($result) > 0 )
 {
 $_SESSION['email'] = $email;
 $_SESSION['senha'] = $senha;
-header('location:home.html');
+header('location:logado.html');
 }
 else{
   unset ($_SESSION['email']);
   unset ($_SESSION['senha']);
-  header('location:index.html');
+  header('location:login.html');
   echo("<script type='text/javascript'>
   alert('Você não possui cadastro!');
 </script>");

@@ -35,6 +35,9 @@ if(mysqli_insert_id($conexao))
   echo("<script type='text/javascript'>
            alert('Usuário cadastrado com sucesso!');
         </script>");
+    echo("<script type='text/javascript'>
+           alert('Faça seu login');
+        </script>");
 }
 else{
     die("Falha na conexão: ". mysqli_connect_error());
@@ -51,14 +54,14 @@ else{
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
         <title>Salão de Cabelereiro</title>
     </head>
     <body>
         <div class="container">
             <div class="card-panel panel">
                 <h1>Seja Bem-Vindo(a)!</h1>
-                <a href="index.html"><center><input type="button" value="Fazer login" class="submit"></center></a>
+                <a href="login.html"><center><input type="button" value="Fazer login" class="submit"></center></a>
             </div>
         </div>
     </body>

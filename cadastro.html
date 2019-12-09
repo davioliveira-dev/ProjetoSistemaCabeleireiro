@@ -17,32 +17,32 @@
                     <div class="row">
                         <div class="input-field col s6 ">
                             <i class="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix nome" type="text" name="nome" class="validate nome" minlength="4" maxlength="50" required>
+                            <input id="icon_prefix nome" type="text" name="nome" class="validate nome" title="No máximo 50 caracteres!" minlength="4" maxlength="50" required>
                             <label for="icon_prefix">Nome Completo</label>
                         </div>
                         <div class="input-field col s6">
                                 <i class="material-icons prefix">domain</i>
-                                <input id="icon_prefix endereco" type="text" name="endereco" class="validate endereco" minlength="4" maxlength="100" required>
+                                <input id="icon_prefix endereco" type="text" name="endereco" class="validate endereco" title="No máximo 100 caracteres!" minlength="4" maxlength="100" required>
                                 <label for="endereco">Endereço</label>
                         </div>
                         <div class="input-field col s6">
                                 <i class="material-icons prefix">edit_location</i>
-                                <input id="icon_telephone cep" type="text" name="cep" class="validate cep" id="cep" minlength="8" maxlength="8" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                                <input id="icon_telephone cep" type="text" name="cep" class="validate cep" id="cep" title="No máximo 8 caracteres!" minlength="8" maxlength="8" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
                                 <label for="cep">CEP</label>
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix">phone</i>
-                            <input id="icon_telephone phoneWithDDD" type="tel" name="fone" id="fone" class="validate phoneWithDDD" minlength="11" maxlength="11" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                            <input id="icon_telephone phoneWithDDD" type="tel" name="fone" id="fone" class="validate phoneWithDDD" title="No máximo 11 caracteres!" minlength="11" maxlength="11" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
                             <label for="icon_telephone">Telefone</label>
                         </div>
                         <div class="input-field col s6">
                                 <i class="material-icons prefix">date_range</i>
-                                <input id="icon_date dataNasc" type="text" name="data_nasc" id="data_nasc" class="validate dataNasc" minlength="8" maxlength="8" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                                <input id="icon_date dataNasc" type="text" name="data_nasc" id="data_nasc" class="validate dataNasc" title="No máximo 8 caracteres!" minlength="8" maxlength="8" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
                                 <label for="icon_date">Data de Nascimento</label>
                         </div>
                         <div class="input-field col s6">
                                 <i class="material-icons prefix">assignment</i>
-                                <input id="icon_rg rg" type="text" name="rg" id="rg" class="validate rg" minlength="12" maxlength="12" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                                <input id="icon_rg rg" type="text" name="rg" id="rg" class="validate rg" title="No máximo 12 caracteres!" minlength="12" maxlength="12" required onkeypress="if(!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
                                 <label for="icon_rg">RG</label>
                         </div>
                         <div class="input-field col s6">
@@ -52,17 +52,19 @@
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix">email</i>
-                            <input id="email" type="email" name="email" id="email" class="validate" minlength="4" maxlength="50" required>
+                            <input id="email" type="email" name="email" id="email" class="validate" title="No máximo 50 caracteres!" minlength="4" maxlength="50" required>
                             <label for="email">Email</label>
                         </div>
                         <div class="input-field col s6">
                             <i class="material-icons prefix mostrarsenha" onmouseup="mostrarsenha()" id="botao">vpn_key</i>
-                            <input id="password" type="password" name="senha" id="senha" class="validate" minlength="8" maxlength="20" required>
+                            <input id="password" type="password" name="senha" id="senha" class="validate" minlength="8" maxlength="20" required title="Clique no botão ao lado para vizualizar a senha! A senha deve conter ao menos 1 letra minúscula, 1 letra maiúscula
+                            1 número ou caractere especial e ter um mínimo de 8 caracteres"
+                            pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                             <label for="password">Digite sua Senha!</label>
                         </div>
                         <div class="input-field col s6">
                                 <i class="material-icons prefix mostrarsenha" id="botaoConfSenha">vpn_key</i>
-                                <input id="password_conf" type="password" class="validate" minlength="8" maxlength="20" required>
+                                <input id="password_conf" type="password" class="validate" minlength="8" maxlength="20" title="Clique no botão ao lado para vizualizar a senha! As senhas devem estar idênticas!" required>
                                 <label for="password_conf">Confirme sua Senha!</label>
                         </div>
                         <div class="input-field col s6 radiosex">
@@ -74,7 +76,7 @@
                         <div class="file-field input-field inputFoto">
                             <div class="btn pink darken-1 submit">
                                 <span>Foto</span>
-                                <input type="file" name="imagem">
+                                <input type="file" name="imagem" accept="image/*">
                             </div>
                             <div class="file-path-wrapper ">
                                 <input class="file-path validate" type="text">

@@ -17,10 +17,11 @@ function validarSenha(){
     else 
     {
         confSenha.setCustomValidity('');
-    }
+	}
 }
 senha.onchange = validarSenha;
 confSenha.onkeyup = validarSenha;
+
 botao = document.getElementById("botao");
 botao2 = document.getElementById("botaoConfSenha");
 

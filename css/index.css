@@ -4,9 +4,7 @@ h1{
   border-radius: 50px;
 }
 .row h5{
-  color: #D63187;
-  background: rgba(255,255,255,.9);
-  border-radius: 50px;
+  color: #fff;
 }
 nav ul a,
 nav .brand-logo {
@@ -59,8 +57,6 @@ p {
 .row h4{
   color: #A038C9;
   font-weight: bold;
-  background: rgba(255,255,255,.9);
-  border-radius: 50px;
 }
 
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=B612:700i|Muli:600i,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=B612:400i,700,700i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
 
 body{
     width: 100%;
@@ -19,6 +19,8 @@ h1{
     text-align: center;
     margin-top: 20px;
     font-family: 'B612',sans-serif;
+    font-style: italic;
+    font-weight: bold;
     transition: 0.8s;
     font-weight: 700;
     color: #A038C9;
@@ -32,6 +34,8 @@ h2{
     text-align: center;
     margin-top: 20px;
     font-family: 'B612',sans-serif;
+    font-style: italic;
+    font-weight: bold;
     transition: 0.8s;
     font-weight: 700;
     color: #A038C9;
@@ -45,6 +49,8 @@ h3{
     text-align: center;
     margin-top: 20px;
     font-family: 'B612',sans-serif;
+    font-style: italic;
+    font-weight: bold;
     transition: 0.8s;
     font-weight: 700;
     color: #A038C9;
@@ -69,17 +75,20 @@ h3:hover{
     border-radius: 20px;
 }
 
-.input{
-    left: 15%;
+.input-field input{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'B612',sans-serif;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    color: #D63187;
 }
 /* label color */
 .input-field label {
     color: #A038C9;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
   }
   /* label focus color */
   .input-field input[type=text]:focus + label {
@@ -123,8 +132,9 @@ h3:hover{
     justify-content: center;
     align-content: center;
     font-family:'B612',sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
-
 .submit:hover {
     background: #D63187;
 }

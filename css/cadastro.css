@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=B612:700i|Muli:600i,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=B612:400i,700,700i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+
 body{
   width: 100%;
   background-image: url('fundo.svg');
@@ -27,8 +28,13 @@ h1{
     font-size: 33px;
     text-align: center;
     font-family: 'B612', sans-serif;
+    font-style: italic;
     font-weight: 700;
     color: #A038C9;
+}
+h1:hover{
+  transition: 0.8s;
+  color: #D63187;
 }
 h2{
     font-size: 25px;
@@ -38,11 +44,24 @@ h2{
     font-weight: 600;
     color: #A038C9;
 }
+h2:hover{
+  transition: 0.8s;
+  color: #D63187;
+}
+.input-field .prefix {
+  color: #A038C9;
+}
+.row .input-field .material-icons:hover{
+  color: #D63187;
+}
 .input-field label {
   color: #A038C9;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
 }
 .input-field input[type=text]:focus + label {
   color: #A038C9;
+  
 }
 .input-field input[type=text]:focus {
   border-bottom: 1px solid #A038C9;
@@ -52,34 +71,34 @@ h2{
   border-bottom: 1px solid #A038C9;
   box-shadow: 0 1px 0 0 #A038C9;
 }
-.input-field input[type=text] {
-  border-bottom: 1px solid #A038C9;
-  box-shadow: 0 1px 0 0 #A038C9;
-}
-.input-field .prefix {
-  color: #A038C9;
-}
 .invalid{
   color:#F44336;
   
+}
+.inputs{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  color: #D63187;
 }
 .mostrarsenha{
   cursor: pointer;
 }
 .radiosex{
-    margin-top: 5px;
+  margin-top: 5px;
 }
 .icon-sexo{
-    margin-top: 5px;
+  margin-top: 5px;
 }
 .sexo{
-    font-size: 18px;
+  font-size: 18px;
 }
 .inputFoto {
-    margin-top: -3px;
+  margin-top: -3px;
 }
 .submit {
   font-family:'B612',sans-serif;
+  font-style: italic;
+  font-weight: bold;
   border-radius: 20px;
   color: #fff;
   background: #D63187;
@@ -88,5 +107,4 @@ h2{
 }
 .submit:hover{
   background: #A038C9;
-  
 }

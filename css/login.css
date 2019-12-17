@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=B612:700i|Muli:600i,700i,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=B612:400i,700,700i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
 body{
     width: 100%;
     background-image: url('fundo.svg');
@@ -21,6 +20,7 @@ h1{
     font-family: 'B612',sans-serif;
     transition: 0.8s;
     font-weight: 700;
+    font-style: italic;
     color: #A038C9;
 }
 h1:hover{
@@ -45,6 +45,12 @@ h1:hover{
 .row{
     margin: 0 auto;
 }
+.email, .senha{
+    font-family: 'Montserrat',sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #D63187;
+}
 .input{
     left: 15%;
     display: flex;
@@ -56,10 +62,14 @@ h1:hover{
 /* label color */
 .input-field label {
     color: #A038C9;
+    font-family: 'B612',sans-serif;
+    font-weight: bold;
   }
   /* label focus color */
   .input-field input[type=text]:focus + label {
     color: #A038C9;
+    font-family: 'B612',sans-serif;
+    font-weight: bold;
   }
   /* label underline focus color */
   .input-field input[type=text]:focus {
@@ -98,7 +108,9 @@ h1:hover{
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    font-family:'B612',sans-serif;
+    font-family: 'B612',sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 .submit:hover {
     background: #D63187;
@@ -107,6 +119,11 @@ a{
     text-decoration: none;
 }
 .ems{
+    font-family: 'B612',sans-serif;
+    transition: 0.8s;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     justify-content: center;

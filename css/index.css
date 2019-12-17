@@ -1,16 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=B612:400i,700,700i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
 h1{
-  color: #A038C9;
-  background: rgba(255,255,255,.9);
-  border-radius: 50px;
+  color: #fff;
+  text-shadow: 0 0 0.8em #000, 0 0 0.1em #000;
 }
 .row h5{
   color: #fff;
+  font-weight: bold;
 }
-nav ul a,
-nav .brand-logo {
+nav ul a{
   color: #A038C9;
 }
-
 p {
   line-height: 2rem;
 }
@@ -48,17 +47,19 @@ p {
 .col h5 {
   color: #A038C9;
 }
-
+.with-shadow{
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 0.3em #000, 0 0 0.2em #000;
+}
+.without-shadow{
+  color: #A038C9;
+  font-weight: bold;
+}
 .texto2{
   color: #D63187;
   font-weight: 500;
 }
-
-.row h4{
-  color: #A038C9;
-  font-weight: bold;
-}
-
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {

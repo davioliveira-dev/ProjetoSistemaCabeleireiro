@@ -1,3 +1,6 @@
 .nav-wrapper a {
     color: #A038C9;
 }
+.card .card-image img:hover{
+    opacity: 1;
+}

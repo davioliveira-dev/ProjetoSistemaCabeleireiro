@@ -29,6 +29,7 @@ ESPAÇAMENTO CORRETO NO INPUT FILE --OK
 
 ########################################## COISAS PARA FAZER 09/12 ##########################################
 
+funcao em js para alterar classe css quando for invalido (usar o !important no css)
 funcao em js para não permitir senha de só numeros ---- OK
 trocar os três fundos da página home ---- OK
 colocar logo na parte de login ---- OK
@@ -41,6 +42,7 @@ página de fale conosco ----
 página de reputação ----
 página de sobre nós ----
 editar coisas que faltam na página home(hover nos tópicos) e textos ----OK
+fontes atualizadas na pagina home ---- 
 sessoes php ----
 receber fotos php ----
 fazer tudo funcionar no celular junto com o mysql ----

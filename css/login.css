@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=B612:400i,700,700i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+html,body{
+    width: 100%;
+}
 body{
     width: 100%;
     background-image: url('fundo.svg');

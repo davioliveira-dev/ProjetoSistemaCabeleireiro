@@ -1,27 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=B612:400i,700,700i|Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
-h1{
-  color: #fff;
-  text-shadow: 0 0 0.8em #000, 0 0 0.1em #000;
-}
-.row h5{
-  color: #fff;
+
+ul.right li a.nav-text {
+  font-family: 'Montserrat',sans-serif;
   font-weight: bold;
-}
-nav ul a{
   color: #A038C9;
+  padding: 0 10px;
 }
-p {
-  line-height: 2rem;
+ul.sidenav li a.nav-text{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 800;
+  color: #A038C9;
 }
 .sidenav-trigger {
   color: #A038C9;
 }
-#nav-mobile li a{
-  color: #A038C9;
+h1{
+  color: #fff;
+  text-shadow: 0 0 0.8em #000, 0 0 0.1em #000;
+  font-family: 'B612', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.row h5.with-shadow{
+  color: #fff;
+  font-weight: bold;
+  font-family: 'B612',sans-serif;
+  font-style: italic;
+}
+p {
+  line-height: 2rem;
+}
+.botao{
+  font-family: 'B612',sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  transition: 0.8s;
 }
 
 .botao:hover{
   background: #D63187;
+  transition: 0.8s;
 }
 
 .parallax-container {
@@ -43,9 +61,16 @@ p {
     top: 10%;
   }
 }
-
 .col h5 {
   color: #A038C9;
+  font-family: 'B612',sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.row h4.h4-text{
+  font-family: B612,sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
 .with-shadow{
   color: #fff;
@@ -58,7 +83,8 @@ p {
 }
 .texto2{
   color: #D63187;
-  font-weight: 500;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 800;
 }
 
 @media only screen and (max-width : 600px) {

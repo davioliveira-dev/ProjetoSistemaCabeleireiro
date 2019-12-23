@@ -10,15 +10,13 @@ validar cadastro no esqueci minha senha --- OK
 sistema esqueceu sua senha ---- OK
 validar o cpf --- OK
 fazer a página home --- OK
-sistema login <=== OK
-redirecionar caso dê erro <=== OK
-redirecionar após cadastro <== OK
-TER NOME SALÃO DE CABELEREIRO NO LOGIN COM FONTE B612 <======= OK
-EMAIL E SENHA DO LOGIN SEGUINDO O PADRAO DO CADASTRO <===== OK
-Seja bem-vindo <== B612 FONTS GOOGLE <=========== OK
-Muli BLACK(deixar azul) <== NOMES DOS CAMPOS E BOTOES <====== OK
-Muli Semi-Bold(OU BOLD) <== INPUTS <========== OK
-SEPARAR EM PASTAS ARQUIVOS JS E CSS <===== OK
+sistema login ---- OK
+redirecionar caso dê erro ---- OK
+redirecionar após cadastro ---- OK
+TER NOME SALÃO DE CABELEREIRO NO LOGIN COM FONTE B612 ---- OK
+EMAIL E SENHA DO LOGIN SEGUINDO O PADRAO DO CADASTRO ---- OK
+Seja bem-vindo <== B612 FONTS GOOGLE ---- OK
+SEPARAR EM PASTAS ARQUIVOS JS E CSS ---- OK
 Inputs estilo material <= google ---- OK
 inputs tem que ser responsivos --- OK
 input data material --- OK
@@ -34,20 +32,20 @@ funcao em js para não permitir senha de só numeros ---- OK
 trocar os três fundos da página home ---- OK
 colocar logo na parte de login ---- OK
 página de logado ---- 
-página de produtos ----
-página de agenda ----
-página de serviços ----
-página de profissionais ----
+página de cortes(alterar imagens e descricao para elas) ---- 
+página de agenda(container com marcar consulta com data picker, numero e cpf) ----
+página de serviços(imagens e cards com manicure, tratamento de cabelo e etc) ----
+página de profissionais(cards de funcionarios e falas deles(media css materialize)) ----
 página de fale conosco ----
 página de reputação ----
 página de sobre nós ----
-editar coisas que faltam na página home(hover nos tópicos) e textos ----OK
-fontes atualizadas na pagina home ---- 
+editar coisas que faltam na página home(hover nos tópicos) e textos ---- OK
+fontes atualizadas na pagina home ---- OK
 sessoes php ----
 receber fotos php ----
-fazer tudo funcionar no celular junto com o mysql ----
 criptografar senha em md5 ----
-
+deixar logo responsiva ---- 
+exibir floating action button quando passar da barra de navegacao ---- 
 
 
 

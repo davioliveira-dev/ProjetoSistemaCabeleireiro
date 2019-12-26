@@ -72,8 +72,7 @@ h2:hover{
   box-shadow: 0 1px 0 0 #A038C9;
 }
 .invalid{
-  color:#F44336;
-  
+  color:#F44336 !important;
 }
 .inputs{
   font-family: 'Montserrat',sans-serif;

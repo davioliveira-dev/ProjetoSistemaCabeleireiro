@@ -31,14 +31,17 @@ function mostrarsenha(){
     botao2.addEventListener("mouseup",mouseUp);
     botao2.addEventListener("mousedown",mouseDown);
 }
+
 function mouseUp(){
     senha.type = "password";
     confSenha.type = "password";
 }
+
 function mouseDown(){
     senha.type = "text";
     confSenha.type = "text";
 }
+
 document.getElementById('sexo').addEventListener('keypress', function(evt) {
     if (evt.key != 'f' && evt.key != 'm' && evt.key != 'F' && evt.key != 'M') {
         evt.preventDefault()

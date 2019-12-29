@@ -8,10 +8,10 @@ $email = $_POST['email'];
 $senha = $_POST['senha'];
 
 
-$result = mysqli_query($conexao,"SELECT * FROM `tb_usuario` 
+$result = pg_query($conexao,"SELECT * FROM `tb_usuario` 
 WHERE `email` = '$email' AND `senha`= '$senha'");
 
-if(mysqli_num_rows ($result) > 0 )
+if(pg_num_rows ($result) > 0 )
 {
 $_SESSION['email'] = $email;
 $_SESSION['senha'] = $senha;

@@ -12,7 +12,7 @@ $sexo = $_POST['sexo'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 $imagem = $_FILES['imagem'];
-$pesquisa = mysqli_query($conexao,"SELECT * FROM `tb_usuario` 
+$pesquisa = pg_query($conexao,"SELECT * FROM `tb_usuario` 
 WHERE `email` = '$email' AND `cpf`= '$cpf'");
 
 if(empty($nome) || empty($endereco) || empty($cep)|| empty($fone)|| empty($data_nasc)|| empty($rg)|| empty($cpf)|| empty($sexo)|| empty($email)|| empty($senha)){
@@ -20,7 +20,7 @@ if(empty($nome) || empty($endereco) || empty($cep)|| empty($fone)|| empty($data_
     alert(Preencha todos os campos!');
     </script>");
 }
-else if(mysqli_num_rows($pesquisa) > 0){
+else if(pg_num_rows($pesquisa) > 0){
     echo("<script type='text/javascript'>
     alert('Há um cadastro igual ao seu!');
     </script>");
@@ -28,9 +28,9 @@ else if(mysqli_num_rows($pesquisa) > 0){
 else{
     $result_usuario = "INSERT INTO tb_usuario (nome,endereco,cep,fone,data_nasc,cpf,rg,sexo,email,senha) VALUES ('$nome','$endereco','$cep','$fone','$data_nasc','$cpf','$rg','$sexo','$email','$senha')";
 }
-$resultado_usuario = mysqli_query($conexao,$result_usuario);
+$resultado_usuario = pg_query($conexao,$result_usuario);
 
-if(mysqli_insert_id($conexao))
+if(pg_insert($conexao))
 {
   echo("<script type='text/javascript'>
            alert('Usuário cadastrado com sucesso!');
@@ -40,7 +40,7 @@ if(mysqli_insert_id($conexao))
         </script>");
 }
 else{
-    die("Falha na conexão: ". mysqli_connect_error());
+    die("Falha na conexão: ". pg_connect_status());
 }
 
 ?>
